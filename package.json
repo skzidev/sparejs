@@ -1,0 +1,17 @@
+{
+    "name": "jslib",
+    "version": "1.0.0",
+    "description": "A Dynamic Website JavaScript Lib",
+    "main": "src\\index.js",
+    "type": "module",
+    "scripts": {
+        "test": "npm run"
+    },
+    "repository": {
+        "type": "git",
+        "url": "none"
+    },
+    "keywords": [],
+    "author": "AnimaTed6422",
+    "license": "none"
+}

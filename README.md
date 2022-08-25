@@ -4,24 +4,18 @@ This is a JavaScript Framework I made in under 3 hours because other frameworks 
 
 ## Usage
 
-1. Import it
 ```javascript
+// Import the Lib
 import { init, createComponent } from 'sparejs/lib/dom.js';
-```
-2. Create a Site
-```javascript
+
+// Create the Site
 const site = init({ name: "My Website" });
-```
-3. Create an Component
-```javascript
+
+// Create a Component and add it
 const header = createComponent("h1", "Hello, World!", { class: "header" });
-```
-4. Add the component
-```javascript
 site.addComponent(header);
-```
-5. Build the site
-```javascript
+
+// Turn it into HTML and create a server to host it at localhost:6422
 site.build();
 ```
 

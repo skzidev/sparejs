@@ -1,4 +1,4 @@
-# JSLib Docs
+# Spare.JS Docs
 
 ### init()
 

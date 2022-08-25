@@ -1,12 +1,12 @@
-# JavaScript Lib
+# Spare.js
 
-This is a JavaScript Lib I made in under 3 hours because other libs always have a catch, so I made something that's not complicated.
+This is a JavaScript Framework I made in under 3 hours because other frameworks always have a catch, so I made something that's not complicated.
 
 ## Usage
 
 1. Import it
 ```javascript
-import { init, createComponent } from '../lib/dom.js';
+import { init, createComponent } from 'sparejs/lib/dom.js';
 ```
 2. Create a Site
 ```javascript

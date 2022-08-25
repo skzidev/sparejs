@@ -1,7 +1,7 @@
 {
-    "name": "jslib",
+    "name": "sparejs",
     "version": "1.0.0",
-    "description": "A Dynamic Website JavaScript Lib",
+    "description": "A Simple JavaScript framework for making websites",
     "main": "src\\index.js",
     "type": "module",
     "scripts": {

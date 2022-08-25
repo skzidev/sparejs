@@ -35,4 +35,6 @@ with
 site.build({ out: true });
 ```
 
-and the site will be built
+
+### Examples
+Examples can be found in the `examples` folder.

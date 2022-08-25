@@ -20,14 +20,7 @@ site.build();
 ```
 
 ### Building to HTML
-Replace
-```javascript
-site.build();
-```
-with
-```javascript
-site.build({ out: true });
-```
+Pass `{ out: true }` as a parameter for `site.build();`
 
 
 ### Examples

@@ -6,7 +6,7 @@ This is a JavaScript Framework I made in under 3 hours because other frameworks 
 
 ```javascript
 // Import the Lib
-import { init, createComponent } from 'sparejs/lib/dom.js';
+import { init, createComponent } from 'sparejs/spare.js';
 
 // Create the Site
 const site = init({ name: "My Website" });

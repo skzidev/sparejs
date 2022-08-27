@@ -22,6 +22,8 @@ site.build();
 ### Building to HTML
 Pass `{ out: true }` as a parameter for `site.build();`
 
+**Note: For filenames other than `index.html`, use `filename: "filename"` and it will output to `filename.html`**
+
 
 ### Examples
 Examples can be found in the `examples` folder.

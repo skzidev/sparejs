@@ -1,6 +1,8 @@
 # Spare.js
 
-This is a JavaScript Framework that's refreshingly simple
+Spare.js is a Small and Simple JavaScript Framework used for creating websites.
+
+It's very light-weight and has very little code (82 Lines), So dead code isn't in your application, taking up space.
 
 ## Usage
 

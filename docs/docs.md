@@ -1,65 +1,68 @@
-# Spare.JS Docs
+<h1 align="center">Spare.js Documentation</h1>
 
-### init()
+# Classes
 
-Takes in a Dictionary as a parameter with the string value `name`
+## Site
 
-Returns a `Site` Object
+The site class is a class the represents the HTML Document Object
 
-### createComponent
+### Methods
 
-Takes in 3 Parameters
+1. addComponent(Component component)
 
-1. Tag-Name/Type
+    Add a Component to the Site
 
-ex. `h1`, `p`, .etc
+2. attachScript(String url)
 
-2. Content
+    Add a JavaScript File (Hosted on a CDN) to the document
 
-ex. `hello, world!`, .etc
+3. attachStringScript(String js)
 
-3. Attributes
+    Add a string of JavaScript to the document
 
-`{ id: 'tb', class: 'class' }`
+4. attachStylesheet(String url)
 
-Returns a `Component` Object
+    Add a CSS Stylesheet (Hosted on a CDN to the document)
 
-### Site
+5. attachStringStylesheet(String css)
 
-An Object that represents the HTML `Document`
+    Add a string of CSS to the document
 
-**Methods**
+6. attachIcon(String url)
 
-- addComponent()
+    Add a favicon to the website
 
-    Add a `Component` to the HTML Renderer
+7. build(Object options)
 
-- attachScript()
+    Turn the site into HTML. Options can include
     
-    Add a `script` Element with the `src` specified
+    - boolean `out`; a boolean that defines if the website should be built to `out/debug/{FILENAME}.html`
+    - int `port`; The localhost port the website should be served on
+    - boolean `test`; A boolean that defines if the website should be put on `localhost:{PORT}`
+    - String `filename`; A String that specifies the name of the file your HTML will be built to (if `out` is set to `true`)
 
-- attachStringScript()
-    
-    Add a `script` Element with the `js` specified as a value
+## Component
 
-- attachStylesheet()
+The component class is a class that represents an HTML element.
 
-    Add a `style` Element with the `href` specified
+### Methods
 
-- attachStringStylesheet()
+1. addComponent(Component component)
 
-    Add a `style` Element with the `css` specified as a value
+    Add a child component to the component
 
-- build()
 
-    Build the site and create a server at `localhost:6422`, serving the HTML created, optionally being able to write the output to a file when `out` is specified `true` in the properties
+# Methods
 
-### Component
+## init(Object options) >> Site
 
-An Object that repressents a HTML Element
+The init function returns a new Site object, you can pass in a Object that can include
 
-**Methods**
+- String `name`; The name of the website
 
-- addComponent()
+## createComponent(String tagname, String content, Object attributes) >> Component
 
-    add the specified component as a child to the parent
+The createComponent funtion returns a new Component, Tagname is **required**, but Content and Attributes are **optional**. Attributes can contain any HTML attribute.
+
+<h2 align="center">That's it for now.</h2>
+<p align="center">Time to build a Website!</p>

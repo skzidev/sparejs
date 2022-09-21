@@ -1,4 +1,4 @@
-import { init, createComponent } from 'jslib/lib/dom.js';
+import { init, createComponent } from '@animated/sparejs';
 
 const site = init({ name: "Download Application" });
 

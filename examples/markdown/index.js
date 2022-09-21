@@ -1,4 +1,4 @@
-import { init, createComponent } from 'sparejs/spare.js'
+import { init, createComponent } from '@animated/sparejs';
 
 const site = init({ name: "MD Parser" });
 

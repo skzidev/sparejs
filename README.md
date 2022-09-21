@@ -26,7 +26,7 @@ Go to the [Latest Release](https://github.com/AnimaTed6422/sparejs/releases/late
 
 ```javascript
 // Import the Lib
-import { init, createComponent } from '@animated/sparejs/spare.js';
+import { init, createComponent } from '@animated/sparejs';
 
 // Create the Site
 const site = init({ name: "My Website" });

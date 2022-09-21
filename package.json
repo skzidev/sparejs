@@ -1,17 +1,14 @@
 {
-    "name": "sparejs",
-    "version": "1.0.1",
+    "name": "@animated/sparejs",
+    "version": "1.1.1",
+    "homepage": "http://sparejs.surge.sh/",
     "description": "A Simple JavaScript framework for making websites",
     "main": "src\\index.js",
     "type": "module",
-    "scripts": {
-        "test": "npm run"
-    },
     "repository": {
         "type": "git",
-        "url": "none"
+        "url": "https://github.com/AnimaTed6422/sparejs"
     },
-    "keywords": [],
     "author": "AnimaTed6422",
     "license": "none"
 }

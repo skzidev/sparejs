@@ -6,11 +6,27 @@ It's very light-weight and has very little code, So dead code isn't in your appl
 
 **Spare.js is in it's infancy. The project is not feature-complete. If you plan to make a big web app, please Beware of this.**
 
+## Installation
+
+There are 2 ways to install sparejs
+
+1. Through NPM
+
+Scaffold a JavaScript Project, then run the command below:
+
+```
+npm i @animated/sparejs
+```
+
+2. Through a .zip
+
+Go to the [Latest Release](https://github.com/AnimaTed6422/sparejs/releases/latest), and follow th instructions there.
+
 ## Usage
 
 ```javascript
 // Import the Lib
-import { init, createComponent } from 'sparejs/spare.js';
+import { init, createComponent } from '@animated/sparejs/spare.js';
 
 // Create the Site
 const site = init({ name: "My Website" });

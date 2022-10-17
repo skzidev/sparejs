@@ -1,27 +1,16 @@
 # Spare.js
 
-Spare.js is a Small and Simple JavaScript Framework used for creating websites.
+Spare.js is a Small and Simple JavaScript Framework used for creating websites, It has no dependenices and uses string manipulation to create HTML.
 
-It's very light-weight and has very little code, So dead code isn't in your application, taking up space.
-
-**Spare.js is in it's infancy. The project is not feature-complete. If you plan to make a big web app, please Beware of this.**
+**Spare.js is not feature-complete, and is just for making simple static HTML websites. Spare.js is not for large-scale projects.**
 
 ## Installation
-
-There are 2 ways to install sparejs
-
-1. Through NPM
-
-Scaffold a JavaScript Project, then run the command below:
 
 ```
 npm i @animated/sparejs
 ```
 
-2. Through a .zip
-
-Go to the [Latest Release](https://github.com/AnimaTed6422/sparejs/releases/latest), and follow th instructions there.
-
+**For those who don't want to use NPM, You can go to the latest release for a .zip containing the files in the NPM package**
 ## Usage
 
 ```javascript
